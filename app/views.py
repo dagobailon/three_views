@@ -3,8 +3,8 @@
 from app import app
 from flask import render_template
 
-@app.route('/')
-def index():
+@app.route('/first_view')
+def first_view():
 	return render_template('first_view.html')
 
 @app.route('/two')
